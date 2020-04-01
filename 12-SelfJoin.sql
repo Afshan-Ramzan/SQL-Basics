@@ -14,4 +14,3 @@ ON E.ManagerID = M.ID
 
 Select E.Name as Employee, M.Name from tbl_Manager E
 CROSS JOIN tbl_Manager M
-
